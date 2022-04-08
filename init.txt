@@ -1,0 +1,10 @@
+camilo
+az6Vlfj4(#Tyr0fJ4!
+
+docker-compose up -d
+
+docker build -t site_wp .
+
+docker rm -f site_wp
+
+docker run -dp 8000:80 site_wp .
